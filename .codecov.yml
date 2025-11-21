@@ -2,8 +2,6 @@ coverage:
   ignore:
     - "src/objects/menuInicial.cpp"
     - "src/objects/menuAjuda.cpp"
-parsers:
-  gcov:
-    branch_detection:
-      conditional: false
-      loop: false
+  branch_detection:
+    conditional: false
+    loop: false
